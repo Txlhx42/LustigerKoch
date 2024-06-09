@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+body{
+    background-color: beige;
+}
+
+#spiel{
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+}
+
+#start{
+    position: fixed;
+    right: 350px;
+    top: 50px;
+    border-radius: 15px;
+    font-size: 2em;
+    text-align: center;
+    background-color: green;
+    color: black;
+}
+
+#buttonText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#start:hover{
+    background-color: white;
+    color: black;
+}
+
+#textButton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    padding: 5px;
+}
+
+#counter{
+    position: fixed;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50px;
+    top: 20px;
+}
+
+#geschwindigkeit{
+    position: fixed;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 350px;
+    top: 20px; 
+}
+
+#herzen{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 10%;
+    top: -215px;
+    width: 100%;
+}
+
+#essen1{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#essen2{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#essen3{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#essen4{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#spielfeld{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 100px 0 0 100px;
+}
+
+.spielfeld-grid{
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 50px;
+    position: relative;
+}
+
+.spielfeld-grid img{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#icon{
+    position: fixed;
+    bottom: 0;
+    left: 80%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
